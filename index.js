@@ -16,11 +16,5 @@ modules.export = {
     return `It's ${days} days until ${holiday}!`
   }
 }
-// Testing
-console.log(happyHolidays())
-console.log(happyHolidaysTo("Hamidou"))
-console.log(happyHolidayTo("thanksgiving","Anne"))
-console.log(holidayCountdown(3,"christmas"))
-
 
 
