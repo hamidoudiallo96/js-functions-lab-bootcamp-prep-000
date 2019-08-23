@@ -1,18 +1,18 @@
 modules.export = {
 
-  var happyHolidays = () =>{
+  happyHolidays: happyHolidays = () =>{
     return "Happy holidays!"
-  }
+  },
   
-  var happyHolidaysTo = name =>{
+  happyHolidaysTo: happyHolidaysTo = name =>{
     return `Happy holidays, ${name}!`
-  }
+  },
   
-  var happyHolidayTo = (holiday,name) =>{
+  happyHolidayTo: happyHolidayTo = (holiday,name) =>{
     return `Happy ${holiday}, ${name}!`
-  }
+  },
   
-  var holidayCountdown = (days,holiday)=>{
+  holidayCountdown: holidayCountdown = (days,holiday)=>{
     return `It's ${days} days until ${holiday}!`
   }
 }
