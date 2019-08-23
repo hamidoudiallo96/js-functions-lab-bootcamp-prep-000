@@ -12,7 +12,7 @@ module.exports = {
     return `Happy ${holiday}, ${name}!`
   },
   
-  holidayCountdown: function(days,holiday){
+  holidayCountdown: function(holiday,days){
     return `It's ${days} days until ${holiday}!`
   }
 }
