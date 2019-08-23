@@ -1,4 +1,4 @@
-modules.export = {
+modules.exports = {
 
   happyHolidays: function(){
     return "Happy holidays!"
