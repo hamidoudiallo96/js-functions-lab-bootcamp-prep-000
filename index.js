@@ -1,16 +1,18 @@
-const happyHolidays = () =>{
+
+
+var happyHolidays = () =>{
   return "Happy holidays!"
 }
 
-const happyHolidaysTo = name =>{
+var happyHolidaysTo = name =>{
   return `Happy holidays, ${name}!`
 }
 
-const happyHolidayTo = (holiday,name) =>{
+var happyHolidayTo = (holiday,name) =>{
   return `Happy ${holiday}, ${name}!`
 }
 
-const holidayCountdown = (days,holiday)=>{
+var holidayCountdown = (days,holiday)=>{
   return `It's ${days} days until ${holiday}!`
 }
 
@@ -19,4 +21,6 @@ console.log(happyHolidays())
 console.log(happyHolidaysTo("Hamidou"))
 console.log(happyHolidayTo("thanksgiving","Anne"))
 console.log(holidayCountdown(3,"christmas"))
+
+modules.export = {happyHolidays,happyHolidaysTo,happyHolidayTo,holidayCountdown}
 
